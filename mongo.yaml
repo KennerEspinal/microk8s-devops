@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: mongo:latest
+        image: 34.125.58.181:32000/mongodb:latest
         ports:
         - containerPort: 27017
         volumeMounts:
